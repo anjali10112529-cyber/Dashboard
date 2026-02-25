@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "./assets/logo.jpg";
+import Logo from "./assets/logo.jpg";
 
 const Navbar: React.FC = () => {
   return (
     <nav className="navbar navbar-expand-md fixed-top bg-light ">
       <div className="container-fluid p-2 m-2">
         <div className="ms-5">
-        <img src={logo} alt="logo" className="img-fluid rounded-circle" style={{width:"100px"}}></img>
+        <img src={Logo} alt="logo" className="img-fluid rounded-circle" style={{width:"100px"}}></img>
         </div>
         <ul className="navbar-nav">
           <li className="nav-item">
