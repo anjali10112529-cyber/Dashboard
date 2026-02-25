@@ -77,8 +77,11 @@ const Navbar: React.FC = () => {
           </div>
         </li>
         <li className="nav-item m-3">
-          <button className="btn rounded-pill bg-black text-white">Login</button>
+          <Link to="/login" className="btn rounded-pill bg-black text-white">
+            Login
+          </Link>
         </li>
+
         <li className="nav-item m-3 ">
           <button className="btn border-0 fs-5 ">🔔 </button>
         </li>
