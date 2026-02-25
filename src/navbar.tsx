@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "./assets/logo.jpg";
 
 const Navbar: React.FC = () => {
   return (
     <nav className="navbar navbar-expand-md fixed-top bg-light ">
-      <div className="container-fluid p-2 m-4">
-        <ul className="navbar-nav mx-auto">
+      <div className="container-fluid p-2 m-2">
+        <div className="ms-5">
+        <img src={logo} alt="logo" className="img-fluid rounded-circle" style={{width:"100px"}}></img>
+        </div>
+        <ul className="navbar-nav">
           <li className="nav-item">
             <Link to="/" className="nav-link p-3 fs-5 text-black">Home</Link>
           </li>
@@ -66,6 +70,19 @@ const Navbar: React.FC = () => {
               <li><Link to="/reference/db" className="dropdown-item">MongoDB</Link></li>
             </ul>
           </li>
+        <li className="nav-item m-3">
+          <div className="input-group">
+          <input type="text" name="text" placeholder="search here..." className="form-control rounded-lg"  />
+          <span className="input-group-text bg-white rounded-lg cursor-pointer">🔍</span>
+          </div>
+        </li>
+        <li className="nav-item m-3">
+          <button className="btn rounded-pill bg-black text-white">Login</button>
+        </li>
+        <li className="nav-item m-3 ">
+          <button className="btn border-0 fs-5 ">🔔 </button>
+        </li>
+        
         </ul>
       </div>
     </nav>

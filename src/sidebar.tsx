@@ -5,7 +5,7 @@ import "./sidebar.css";
 const Sidebar: React.FC = () => {
   return (
     <aside className="sidebar">
-      <h3 className="sidebar-title">Topics</h3>
+      
       <ul className="sidebar-list">
         <li><Link to="/tutorial/html-css" className="sidebar-link">HTML & CSS</Link></li>
         <li><Link to="/tutorial/javascript" className="sidebar-link">JavaScript</Link></li>
@@ -15,6 +15,8 @@ const Sidebar: React.FC = () => {
         <li><Link to="/tutorial/react" className="sidebar-link">React</Link></li>
         <li><Link to="/tutorial/sql" className="sidebar-link">SQL</Link></li>
         <li><Link to="/tutorial/mongodb" className="sidebar-link">MongoDB</Link></li>
+        <li><Link to="/tutorial/angular" className="sidebar-link">Angular</Link></li>
+        <li><Link to="/tutorial/django" className="sidebar-link">Django</Link></li>
       </ul>
     </aside>
   );

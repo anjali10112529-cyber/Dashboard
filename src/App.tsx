@@ -10,7 +10,7 @@ const App: React.FC = () => {
     <Router>
       <Routes>
        <Route path="/" element={<Layout/>}>
-          <Route index element={<h1>Welcome</h1>}/>
+          <Route index element={<h1>Welcome to our <br>CodeTech Solutions!</br></h1>}/>
             <Route path="tutorial/html-css" element={<HtmlCssPage/>}/>   
             <Route path="tutorial/javascript" element={<Javascript/>}/>   
             <Route path="tutorial/python" element={<Python/>}/>
