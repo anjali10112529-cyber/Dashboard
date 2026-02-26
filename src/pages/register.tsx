@@ -2,7 +2,7 @@ import React from "react";
 
 const Register: React.FC = () => {
   return (
-    <div className="d-flex justify-content-center align-items-center min-vh-100 bg-dark text-white">
+    <div className="d-flex justify-content-center align-items-center  text-white" style={{height:"clac(100vh - 80px)", width:"calc(100vw - 200px)"}}>
       <div className="p-5 rounded bg-black shadow-lg" style={{ width: "400px" }}>
         <h1 className="text-center mb-4">Register</h1>
 

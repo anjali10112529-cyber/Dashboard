@@ -2,13 +2,8 @@ import React from "react";
 
 const Login: React.FC = () => {
   return (
-    <div
-      className="d-flex justify-content-center align-items-center text-white"
-      style={{
-        height: "calc(100vh - 80px)", // full visible content height
-        width: "100%",
-      }}
-    >
+    <div className="d-flex justify-content-center align-items-center text-white"
+      style={{ height: "calc(100vh - 80px)", width: "calc(100vw - 200px)"}}>
       <div className="p-5 rounded bg-black" style={{ width: "400px" }}>
         <h1 className="text-center mb-4">Login</h1>
 
